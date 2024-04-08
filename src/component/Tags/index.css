@@ -1,0 +1,15 @@
+.tags-list-item-button {
+  background-color: transparent;
+  border: 1px solid #f3aa4e;
+  border-radius: 11px;
+  color: #ffffff;
+  padding: 3px 13px 3px 13px;
+}
+
+.active-tags-list-item-button {
+  background-color: #f3aa4e;
+  border: 1px solid #f3aa4e;
+  border-radius: 11px;
+  color: #ffffff;
+  padding: 3px 13px 3px 13px;
+}

@@ -1,0 +1,96 @@
+.bg-container {
+  background-color: #131213;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.input-input-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 30px 0px 30px;
+}
+
+.user-input-heading {
+  color: #f3aa4e;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.user-input-label-1,
+.user-input-label-2 {
+  color: #ffffff;
+  margin-bottom: 3px;
+  align-self: flex-start;
+}
+
+.user-input,
+.select-input {
+  width: 100%;
+  height: 6vh;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  height: 40px;
+  width: 100px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.tags-list-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.tags-list-container-heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+.tags-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.not-found-view {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Bree Serif;
+}
+
+.user-tasks-list {
+  width: 100%;
+  list-style-type: none;
+}

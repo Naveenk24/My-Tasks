@@ -1,0 +1,19 @@
+.user-task-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-task-names {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.user-task-tags {
+  background-color: #f3aa4e;
+  padding: 2px 20px 3px 20px;
+  border-radius: 15px;
+  font-weight: 600;
+}
